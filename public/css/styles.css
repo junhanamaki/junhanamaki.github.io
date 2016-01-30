@@ -27,7 +27,7 @@ body {
 .fa {
   color: white;
   text-shadow: 0 0 8px rgba(0, 0, 0, 1);
-  font-size: 8vw !important;
+  font-size: 7vw !important;
 }
 
 .my-name {
@@ -39,7 +39,7 @@ body {
 
 .my-title {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 7vw;
+  font-size: 6vw;
   color: white;
   text-shadow: 0 0 8px rgba(0, 0, 0, 1);
 }
