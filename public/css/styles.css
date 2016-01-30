@@ -46,3 +46,12 @@
   border-radius: 50%;
   box-shadow: 0 0 8px rgba(256, 256, 256, .9);
 }
+
+.link-icon {
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.link-icon-container {
+  margin-top: 15px;
+}
