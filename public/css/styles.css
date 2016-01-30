@@ -30,29 +30,29 @@ body {
 
 .my-name {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 90vw;
+  font-size: 200%;
   color: white;
   text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
 }
 
 .my-title {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 60vw;
+  font-size: 70px;
   color: white;
   text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
 }
 
 @media (min-width: 410px) {
-  .my-title {
+  .my-name {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 120%;
+    font-size: 250%;
     color: white;
     text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
   }
 
-  .my-name {
+  .my-title {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 250%;
+    font-size: 120%;
     color: white;
     text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
   }
