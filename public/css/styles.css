@@ -30,16 +30,23 @@ body {
 
 .my-name {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 100%;
+  font-size: 120%;
   color: white;
   text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
 }
 
 .my-title {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 20%;
+  font-size: 90%;
   color: white;
   text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
+}
+
+.my-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(256, 256, 256, 1), 0 0 4px rgba(256, 256, 256, 1);
 }
 
 @media (min-width: 410px) {
@@ -56,13 +63,13 @@ body {
     color: white;
     text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
   }
-}
 
-.my-avatar {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  box-shadow: 0 0 8px rgba(256, 256, 256, .9);
+  .my-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(256, 256, 256, 1), 0 0 4px rgba(256, 256, 256, 1);
+  }
 }
 
 .link-icon {
