@@ -6,10 +6,6 @@ body {
   overflow: hidden;
 }
 
-.fa {
-  color: white;
-}
-
 .main-container {
   height: 100vh;
   display: flex;
@@ -28,25 +24,31 @@ body {
   flex-direction: column;
 }
 
+.fa {
+  color: white;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  font-size: 50%;
+}
+
 .my-name {
   font-family: 'Titillium Web', sans-serif;
   font-size: 140%;
   color: white;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
 }
 
 .my-title {
   font-family: 'Titillium Web', sans-serif;
   font-size: 90%;
   color: white;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
 }
 
 .my-avatar {
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  box-shadow: 0 0 8px rgba(256, 256, 256, 1), 0 0 4px rgba(256, 256, 256, 1);
+  box-shadow: 0 0 8px rgba(256, 256, 256, 1);
 }
 
 .link-icon-container {
@@ -59,25 +61,21 @@ body {
 }
 
 @media (min-width: 410px) {
+  .fa {
+    font-size: 100%;
+  }
+
   .my-name {
-    font-family: 'Titillium Web', sans-serif;
     font-size: 250%;
-    color: white;
-    text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
   }
 
   .my-title {
-    font-family: 'Titillium Web', sans-serif;
     font-size: 120%;
-    color: white;
-    text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
   }
 
   .my-avatar {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
-    box-shadow: 0 0 8px rgba(256, 256, 256, 1), 0 0 4px rgba(256, 256, 256, 1);
   }
 
   .link-icon-container {
@@ -85,7 +83,6 @@ body {
   }
 
   .link-icon {
-    display: inline-block;
     margin-right: 3px;
   }
 }
