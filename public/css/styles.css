@@ -1,16 +1,36 @@
+.fa {
+  color: white;
+}
+
 .body {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
-.avatar {
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.my-profile {
+  display: flex;
+}
+
+.my-name {
+  color: white;
+}
+
+.my-title {
+  color: white;
+}
+
+.my-avatar {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  box-shadow: 0 0 8px rgba(256, 256, 256, .9);
 }
