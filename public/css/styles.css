@@ -31,11 +31,13 @@
   font-family: 'Titillium Web', sans-serif;
   font-size: 250%;
   color: white;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
 }
 
 .my-title {
   font-family: 'Titillium Web', sans-serif;
   color: white;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
 }
 
 .my-avatar {
