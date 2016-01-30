@@ -1,3 +1,5 @@
 # junhanamaki.github.io
 
-My homepage@github
+my-homepage@github
+
+Super simple stuff ;)

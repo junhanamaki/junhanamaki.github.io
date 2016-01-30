@@ -9,22 +9,32 @@
   overflow: hidden;
 }
 
-.container {
+.main-container {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-.my-profile {
+.profile-container {
+  width: 410px;
   display: flex;
+  justify-content: space-between;
+}
+
+.profile-container-left {
+  display: flex;
+  flex-direction: column;
 }
 
 .my-name {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 250%;
   color: white;
 }
 
 .my-title {
+  font-family: 'Titillium Web', sans-serif;
   color: white;
 }
 
