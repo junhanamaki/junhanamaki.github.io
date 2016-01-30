@@ -1,12 +1,13 @@
-.fa {
-  color: white;
-}
-
-.body {
+body {
+  font-size: 16px;
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+}
+
+.fa {
+  color: white;
 }
 
 .main-container {
@@ -29,13 +30,14 @@
 
 .my-name {
   font-family: 'Titillium Web', sans-serif;
-  font-size: 38px;
+  font-size: 250%;
   color: white;
   text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
 }
 
 .my-title {
   font-family: 'Titillium Web', sans-serif;
+  font-size: 120%;
   color: white;
   text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 4px rgba(0, 0, 0, 1);
 }
@@ -53,5 +55,5 @@
 }
 
 .link-icon-container {
-  margin-top: 15px;
+  margin-top: 13px;
 }
