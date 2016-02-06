@@ -1,20 +1,39 @@
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
+
   font-size: 16px;
   font-family: 'Titillium Web', sans-serif;
   color: white;
   text-shadow: 0 0 8px rgba(0, 0, 0, 1);
-  vertical-align: text-bottom;
 }
 
 #header {
-  width: auto;
   display: flex;
   justify-content: space-between;
   margin: 10px 10px 0px 10px;
+}
+
+#body {
+  flex-grow: 1;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
 }
 
 #header-left {
@@ -30,12 +49,12 @@ body {
 }
 
 #my-title {
-  font-size: 150%;
+  font-size: 140%;
 }
 
 .spacer {
   display: inline-block;
-  width: 10px;
+  width: 15px;
 }
 
 #my-links {
@@ -51,8 +70,8 @@ body {
 #my-avatar {
   border-radius: 50%;
   box-shadow: 0 0 8px rgba(256, 256, 256, 1);
-  width: 43px;
-  height: 43px;
+  width: 40px;
+  height: 40px;
 }
 
 .fa {
@@ -60,8 +79,10 @@ body {
   font-size: 170% !important;
 }
 
-
-
+#navigator {
+  margin: 10px;
+  cursor: pointer;
+}
 
 
 
@@ -90,8 +111,6 @@ body {
   flex-direction: column;
   transition-duration: 2s;
 }
-
-
 
 .my-name {
   font-family: 'Titillium Web', sans-serif;
