@@ -1,10 +1,76 @@
 body {
-  font-size: 16px;
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  font-size: 16px;
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  vertical-align: text-bottom;
 }
+
+#header {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 0px 10px;
+}
+
+#header-left {
+
+}
+
+#header-right {
+
+}
+
+#my-name {
+  font-size: 180%;
+}
+
+#my-title {
+  font-size: 150%;
+}
+
+.spacer {
+  display: inline-block;
+  width: 10px;
+}
+
+#my-links {
+  display: inline-block;
+  margin-top: 10px;
+  vertical-align: top;
+}
+
+#my-links > a {
+  margin: 0px 2px 0px 2px;
+}
+
+#my-avatar {
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(256, 256, 256, 1);
+  width: 43px;
+  height: 43px;
+}
+
+.fa {
+  color: white;
+  font-size: 170% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .main-container {
   height: 100vh;
@@ -22,13 +88,10 @@ body {
 .profile-container-left {
   display: flex;
   flex-direction: column;
+  transition-duration: 2s;
 }
 
-.fa {
-  color: white;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
-  font-size: 7vw !important;
-}
+
 
 .my-name {
   font-family: 'Titillium Web', sans-serif;
@@ -55,16 +118,23 @@ body {
   margin-top: 8px;
 }
 
-.link-icon {
-  display: inline-block;
-  margin-right: 1px;
+
+
+.footer-container {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.next-page-icon {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  padding-bottom: 5px;
 }
 
 @media (min-width: 410px) {
-  .fa {
-    font-size: 200% !important;
-  }
-
   .my-name {
     font-size: 250%;
   }
@@ -80,9 +150,5 @@ body {
 
   .link-icon-container {
     margin-top: 13px;
-  }
-
-  .link-icon {
-    margin-right: 3px;
   }
 }

@@ -13,38 +13,24 @@
   </head>
 
   <body>
-    <div class="main-container">
-      <div class="profile-container">
-        <div class="profile-container-left">
-          <span class="my-name">Jun Hanamaki</span>
-          <span class="my-title">Software Developer</span>
-          <div class="link-icon-container">
-            <div class="link-icon">
-              <a href="mailto:jun.hanamaki@gmail.com"><i class="fa fa-envelope"></i></a>
-            </div>
-            <div class="link-icon">
-              <a href="https://www.linkedin.com/in/junhanamaki"><i class="fa fa-linkedin"></i></a>
-            </div>
-            <div class="link-icon">
-              <a href="https://github.com/junhanamaki"><i class="fa fa-github"></i></a>
-            </div>
-            <div class="link-icon">
-              <a href="https://rubygems.org/profiles/junhanamaki"><i class="fa fa-diamond"></i></a>
-            </div>
-            <div class="link-icon">
-              <a href="https://medium.com/@jun.hanamaki"><i class="fa fa-medium"></i></a>
-            </div>
-            <div class="link-icon">
-              <a href="https://twitter.com/junhanamaki"><i class="fa fa-twitter"></i></a>
-            </div>
-            <div class="link-icon">
-              <a href="https://pt-pt.facebook.com/jun.hanamaki"><i class="fa fa-facebook"></i></a>
-            </div>
-          </div>
+    <div id="header">
+      <div id="header-left">
+        <span id="my-name">Jun Hanamaki</span>
+        <div class="spacer"></div>
+        <span id="my-title">Software Developer</span>
+      </div>
+      <div id="header-right">
+        <div id="my-links">
+          <a href="mailto:jun.hanamaki@gmail.com"><i class="fa fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/junhanamaki"><i class="fa fa-linkedin"></i></a>
+          <a href="https://github.com/junhanamaki"><i class="fa fa-github"></i></a>
+          <a href="https://rubygems.org/profiles/junhanamaki"><i class="fa fa-diamond"></i></a>
+          <a href="https://medium.com/@jun.hanamaki"><i class="fa fa-medium"></i></a>
+          <a href="https://twitter.com/junhanamaki"><i class="fa fa-twitter"></i></a>
+          <a href="https://pt-pt.facebook.com/jun.hanamaki"><i class="fa fa-facebook"></i></a>
         </div>
-        <div>
-           <img class="my-avatar" src="public/images/avatar.jpg">
-        </div>
+        <div class="spacer"></div>
+        <img id="my-avatar" src="public/images/avatar.jpg">
       </div>
     </div>
   </body>
@@ -58,4 +44,6 @@
     ga('create', 'UA-73117021-1', 'auto');
     ga('send', 'pageview');
   </script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="public/js/app.js"></script>
 </html>
