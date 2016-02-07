@@ -148,7 +148,6 @@ body {
 }
 
 #about-container {
-  transform-style: preserve-3d;
   height: 100%;
   width: 100%;
   overflow: scroll;
