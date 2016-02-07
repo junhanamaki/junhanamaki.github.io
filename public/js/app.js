@@ -31,11 +31,13 @@
     $('.link-icon').removeClass('fa-big');
 
     $('#about-container').removeClass('hide-about');
+    $('#header-background').removeClass('hide-header-background');
   }
 
   function navigateToIntro() {
     $('#navigator').removeClass('flip');
 
+    $('#header-background').addClass('hide-header-background');
     $('#about-container').addClass('hide-about');
 
     $('.link-icon').addClass('fa-big');
