@@ -24,7 +24,7 @@ body {
 #header {
   display: flex;
   justify-content: space-between;
-  margin: 10px 10px 0px 10px;
+  margin: 10px 20px 0px 20px;
 }
 
 #body {
@@ -37,19 +37,32 @@ body {
 }
 
 #header-left {
-
+  position: relative;
 }
 
 #header-right {
-
+  position: relative;
 }
 
 #my-name {
+  display: inline-block;
+  position: relative;
   font-size: 180%;
 }
 
+.center-my-name {
+  font-size: 250% !important;
+  transform: translate(31vw, 42vh);
+}
+
 #my-title {
+  display: inline-block;
   font-size: 140%;
+}
+
+.center-my-title {
+  font-size: 150% !important;
+  transform: translate(13.2vw, 50vh);
 }
 
 .spacer {
