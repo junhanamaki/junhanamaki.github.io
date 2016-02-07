@@ -22,6 +22,10 @@ body {
   text-shadow: 0 0 8px rgba(0, 0, 0, 1);
 }
 
+p {
+  font-size: 140%;
+}
+
 #header {
   width: 100%;
   min-height: 55px;
