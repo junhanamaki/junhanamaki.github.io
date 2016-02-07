@@ -132,11 +132,16 @@ body {
 }
 
 #navigator {
+  transform-style: preserve-3d;
   cursor: pointer;
   margin: 10px;
   text-shadow: 0 0 1px rgba(256, 256, 256, 1);
   animation: pulse-navigator 2s ease-out;
   animation-iteration-count: infinite;
+}
+
+.flip {
+  transform: rotateX(180deg);
 }
 
 @media (min-width: 410px) {

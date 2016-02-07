@@ -14,6 +14,8 @@
   };
 
   function navigateToCV() {
+    $('#navigator').addClass('flip');
+
     $('#my-name-container, #my-title-container').removeClass('centered-origin-left');
     $('#my-links-container, #my-avatar-container').removeClass('centered-origin-right');
     $('.wrapper').removeClass('centered-content');
@@ -27,6 +29,8 @@
   }
 
   function navigateToIntro() {
+    $('#navigator').removeClass('flip');
+
     $('.link-icon').addClass('fa-big');
 
     $('#my-name').addClass('centered-my-name');
