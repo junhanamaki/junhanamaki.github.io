@@ -24,11 +24,14 @@ body {
 
 p {
   font-size: 130%;
-  color: rgb(230, 230, 230);
 }
 
 a {
   color: white;
+}
+
+.grey-text {
+  color: rgb(220, 220, 220);
 }
 
 #header {
@@ -160,7 +163,7 @@ a {
   height: 100%;
   width: 100%;
   overflow: scroll;
-  background-color: rgba(0, 0, 0, 0.7)
+  background-color: rgba(0, 0, 0, 0.8)
 }
 
 #about {
