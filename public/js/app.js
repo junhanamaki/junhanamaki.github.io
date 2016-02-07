@@ -1,7 +1,5 @@
-'use strict';
-
 (function() {
-  let state = 0;
+  var state = 0;
 
   window.onNavigatorClick = function() {
     if (state == 0) {
