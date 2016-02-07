@@ -17,17 +17,17 @@
     $('.container').removeClass('centered-origin');
     $('.wrapper').removeClass('centered-content');
 
-    $('#my-name').removeClass('positioned-my-name');
-    $('#my-title').removeClass('positioned-my-title');
-    $('#my-links').removeClass('positioned-my-links');
-    $('#my-avatar').removeClass('positioned-my-avatar');
+    $('#my-name').removeClass('centered-my-name');
+    $('#my-title').removeClass('centered-my-title');
+    $('#my-links').removeClass('centered-my-links');
+    $('#my-avatar').removeClass('centered-my-avatar');
   }
 
   function navigateToIntro() {
-    $('#my-name').addClass('positioned-my-name');
-    $('#my-title').addClass('positioned-my-title');
-    $('#my-links').addClass('positioned-my-links');
-    $('#my-avatar').addClass('positioned-my-avatar');
+    $('#my-name').addClass('centered-my-name');
+    $('#my-title').addClass('centered-my-title');
+    $('#my-links').addClass('centered-my-links');
+    $('#my-avatar').addClass('centered-my-avatar');
 
 
     $('.wrapper').addClass('centered-content');
