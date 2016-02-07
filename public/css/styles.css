@@ -19,16 +19,20 @@ body {
   font-size: 16px;
   font-family: 'Titillium Web', sans-serif;
   color: white;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1), 0 0 8px rgba(0, 0, 0, 1);
 }
 
 p {
-  font-size: 140%;
+  font-size: 130%;
+}
+
+a {
+  color: white;
 }
 
 #header {
   width: 100%;
-  min-height: 55px;
+  min-height: 60px;
 }
 
 #body {
@@ -57,7 +61,7 @@ p {
 }
 
 #my-name-container {
-  top: 11px;
+  top: 7px;
   left: 20px;
 }
 
@@ -71,7 +75,7 @@ p {
 }
 
 #my-title-container {
-  top: 18px;
+  top: 14px;
   left: 209px;
 }
 
@@ -100,7 +104,6 @@ p {
 }
 
 .fa {
-  color: white;
   font-size: 170% !important;
 }
 
@@ -156,6 +159,7 @@ p {
   height: 100%;
   width: 100%;
   overflow: scroll;
+  background-color: rgba(0, 0, 0, 0.5)
 }
 
 #about {
