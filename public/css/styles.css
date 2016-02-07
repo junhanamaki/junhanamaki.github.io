@@ -82,6 +82,7 @@ body {
 #my-links-container {
   top: 20px;
   right: 106px;
+  z-index: 1;
 }
 
 #my-links > a {
