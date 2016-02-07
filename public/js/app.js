@@ -26,10 +26,14 @@
     $('#my-avatar').removeClass('centered-my-avatar');
 
     $('.link-icon').removeClass('fa-big');
+
+    $('#profile').removeClass('hide-profile');
   }
 
   function navigateToIntro() {
     $('#navigator').removeClass('flip');
+
+    $('#profile').addClass('hide-profile');
 
     $('.link-icon').addClass('fa-big');
 
