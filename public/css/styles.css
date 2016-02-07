@@ -133,7 +133,7 @@ body {
 
 #navigator {
   cursor: pointer;
-  margin: 5px;
+  margin: 10px;
   text-shadow: 0 0 1px rgba(256, 256, 256, 1);
   animation: pulse-navigator 2s ease-out;
   animation-iteration-count: infinite;
