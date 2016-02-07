@@ -37,6 +37,8 @@ body {
 
 .container {
   position: absolute;
+  left: 0%;
+  top: 0%;
 }
 
 .centered-origin {
@@ -46,10 +48,15 @@ body {
 
 .wrapper {
   position: relative;
+  left: 0%;
 }
 
 .centered-content {
   left: -50% !important;
+}
+
+.animated {
+  transition: all 2s ease-in-out;
 }
 
 #my-name {
