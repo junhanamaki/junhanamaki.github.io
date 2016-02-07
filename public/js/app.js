@@ -27,13 +27,13 @@
 
     $('.link-icon').removeClass('fa-big');
 
-    $('#about').removeClass('hide-about');
+    $('#about-container').removeClass('hide-about');
   }
 
   function navigateToIntro() {
     $('#navigator').removeClass('flip');
 
-    $('#about').addClass('hide-about');
+    $('#about-container').addClass('hide-about');
 
     $('.link-icon').addClass('fa-big');
 
