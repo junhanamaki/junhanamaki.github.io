@@ -33,7 +33,6 @@ body {
 }
 
 #footer {
-  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -145,14 +144,14 @@ body {
   transform: rotateX(180deg);
 }
 
-#profile {
+#about {
   transform-style: preserve-3d;
   height: 100%;
 }
 
-.hide-profile {
+.hide-about {
   transform: rotateX(180deg);
-  transform-origin: 0% 100%;
+  transform-origin: 0% 120%;
 }
 
 @media (min-width: 410px) {
