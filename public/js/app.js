@@ -14,23 +14,28 @@
   };
 
   function navigateToCV() {
-    $('.container').removeClass('centered-origin');
+    $('#my-name-container, #my-title-container').removeClass('centered-origin-left');
+    $('#my-links-container, #my-avatar-container').removeClass('centered-origin-right');
     $('.wrapper').removeClass('centered-content');
 
     $('#my-name').removeClass('centered-my-name');
     $('#my-title').removeClass('centered-my-title');
     $('#my-links').removeClass('centered-my-links');
     $('#my-avatar').removeClass('centered-my-avatar');
+
+    $('.link-icon').removeClass('fa-big');
   }
 
   function navigateToIntro() {
+    $('.link-icon').addClass('fa-big');
+
     $('#my-name').addClass('centered-my-name');
     $('#my-title').addClass('centered-my-title');
     $('#my-links').addClass('centered-my-links');
     $('#my-avatar').addClass('centered-my-avatar');
 
-
     $('.wrapper').addClass('centered-content');
-    $('.container').addClass('centered-origin');
+    $('#my-links-container, #my-avatar-container').addClass('centered-origin-right');
+    $('#my-name-container, #my-title-container').addClass('centered-origin-left');
   }
 })();

@@ -39,15 +39,26 @@ body {
 
 .container {
   position: absolute;
+  transform-style: preserve-3d;
 }
 
-.centered-origin {
-  left: 50% !important;
+.centered-origin-left {
   top: 50% !important;
+  left: 50% !important;
+}
+
+.centered-origin-right {
+  top: 50% !important;
+  right: 50% !important;
 }
 
 .animated {
   transition: all 1s ease-in-out;
+}
+
+#my-name-container {
+  top: 11px;
+  left: 20px;
 }
 
 #my-name {
@@ -59,6 +70,11 @@ body {
   transform: translate(-205px, -70px) !important;
 }
 
+#my-title-container {
+  top: 18px;
+  left: 209px;
+}
+
 #my-title {
   font-size: 140%;
 }
@@ -68,8 +84,9 @@ body {
   transform: translate(-205px, -10px);
 }
 
-#my-links {
-
+#my-links-container {
+  top: 20px;
+  right: 70px;
 }
 
 #my-links > a {
@@ -78,15 +95,21 @@ body {
 }
 
 .centered-my-links {
-  transform: translate(-204px, 34px);
+  transform: translate(45px, 34px);
 }
 
 .fa {
   color: white;
+  font-size: 170% !important;
 }
 
 .fa-big {
   font-size: 200% !important;
+}
+
+#my-avatar-container {
+  top: 11px;
+  right: 20px;
 }
 
 #my-avatar {
@@ -99,7 +122,7 @@ body {
 .centered-my-avatar {
   width: 150px !important;
   height: 150px !important;
-  transform: translate(55px, -70px);
+  transform: translate(205px, -70px);
 }
 
 @keyframes pulse-navigator {
