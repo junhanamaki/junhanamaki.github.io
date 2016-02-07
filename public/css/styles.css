@@ -29,12 +29,11 @@ body {
 
 #body {
   flex-grow: 1;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .container {
   position: absolute;
-  transform-style: preserve-3d;
 }
 
 .centered-origin-left {
@@ -49,6 +48,7 @@ body {
 
 .animated {
   transition: all 1s cubic-bezier(.23,1,.32,1);
+  transform-style: preserve-3d;
 }
 
 #my-name-container {
@@ -146,14 +146,18 @@ body {
   transform: rotateX(180deg);
 }
 
-#about {
+#about-container {
   transform-style: preserve-3d;
   height: 100%;
+  width: 100%;
+  overflow: scroll;
+}
+
+#about {
   margin: auto;
   width: 50%;
 }
 
 .hide-about {
-  transform: rotateX(180deg);
-  transform-origin: 0% 100%;
+  transform: translateY(100%);
 }
