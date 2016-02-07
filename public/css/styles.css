@@ -113,10 +113,18 @@ body {
   transform: translate(130px, -70px);
 }
 
+@keyframes pulse-navigator {
+  0% { text-shadow: 0 0 1px rgba(256, 256, 256, 1); }
+  50% { text-shadow: 0 0 10px rgba(256, 256, 256, 1); }
+  100% { text-shadow: 0 0 1px rgba(256, 256, 256, 1); }
+}
+
 #navigator {
-  margin: 10px;
   cursor: pointer;
-  font-size: 200% !important;
+  margin: 5px;
+  text-shadow: 0 0 1px rgba(256, 256, 256, 1);
+  animation: pulse-navigator 2s ease-out;
+  animation-iteration-count: infinite;
 }
 
 @media (min-width: 410px) {
