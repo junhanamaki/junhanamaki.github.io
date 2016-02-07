@@ -179,3 +179,21 @@ body {
 .hide-about {
   transform: translateY(100%);
 }
+
+@media (max-width: 520px) {
+  body {
+    font-size: 3vw;
+  }
+
+  .centered-my-name {
+    transform: translate(-38.5vw, -70px) !important;
+  }
+
+  .centered-my-title {
+    transform: translate(-38.5vw, -10px) !important;
+  }
+
+  .centered-my-links {
+    transform: translate(9.3vw, 34px) !important;
+  }
+}
