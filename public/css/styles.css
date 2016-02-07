@@ -45,6 +45,7 @@ body {
 
 .container {
   position: absolute;
+  white-space: nowrap;
 }
 
 .centered-origin-left {
@@ -180,20 +181,26 @@ body {
   transform: translateY(100%);
 }
 
-@media (max-width: 520px) {
+@media (max-width: 460px) {
   body {
     font-size: 3vw;
   }
 
   .centered-my-name {
-    transform: translate(-38.5vw, -70px) !important;
+    transform: translate(-46vw, -70px) !important;
   }
 
   .centered-my-title {
-    transform: translate(-38.5vw, -10px) !important;
+    transform: translate(-46vw, -10px) !important;
   }
 
   .centered-my-links {
-    transform: translate(9.3vw, 34px) !important;
+    transform: translate(2vw, 34px) !important;
+  }
+
+  .centered-my-avatar {
+    width: 140px !important;
+    height: 140px !important;
+    transform: translate(46vw, -70px);
   }
 }
