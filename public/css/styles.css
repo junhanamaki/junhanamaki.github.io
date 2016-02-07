@@ -29,12 +29,7 @@ body {
 
 #body {
   flex-grow: 1;
-  overflow: hidden;
-}
-
-#footer {
-  display: flex;
-  justify-content: center;
+  overflow: scroll;
 }
 
 .container {
@@ -86,7 +81,7 @@ body {
 
 #my-links-container {
   top: 20px;
-  right: 70px;
+  right: 106px;
 }
 
 #my-links > a {
@@ -109,7 +104,7 @@ body {
 
 #my-avatar-container {
   top: 11px;
-  right: 20px;
+  right: 56px;
 }
 
 #my-avatar {
@@ -131,34 +126,34 @@ body {
   100% { text-shadow: 0 0 1px rgba(256, 256, 256, 1); }
 }
 
+#navigator-container {
+  top: 14px;
+  right: 20px;
+}
+
 #navigator {
-  transform-style: preserve-3d;
   cursor: pointer;
-  margin: 10px;
   text-shadow: 0 0 1px rgba(256, 256, 256, 1);
   animation: pulse-navigator 2s ease-out;
   animation-iteration-count: infinite;
+}
+
+.centered-navigator {
+  transform: translateY(100px);
 }
 
 .flip {
   transform: rotateX(180deg);
 }
 
-#about-container {
-  height: 100%;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 70%;
-  overflow: scroll;
-}
-
 #about {
   transform-style: preserve-3d;
   height: 100%;
+  margin: auto;
+  width: 50%;
 }
 
 .hide-about {
   transform: rotateX(180deg);
-  transform-origin: 0% 120%;
+  transform-origin: 0% 100%;
 }
