@@ -93,7 +93,7 @@ body {
 
 #my-links-container {
   top: 20px;
-  right: 124px;
+  right: 100px;
   z-index: 1;
 }
 
@@ -120,7 +120,7 @@ body {
 
 #my-avatar-container {
   top: 11px;
-  right: 66px;
+  right: 48px;
 }
 
 #my-avatar {
@@ -143,8 +143,8 @@ body {
 }
 
 #navigator-container {
-  top: 14px;
-  right: 20px;
+  top: 19px;
+  right: 10px;
 }
 
 #navigator {
@@ -233,5 +233,29 @@ body {
 
   .fa-big {
     font-size: 200% !important;
+  }
+}
+
+@media (max-width: 440px) {
+  .centered-origin-left, .centered-origin-right {
+    font-size: 13px;
+  }
+
+  .centered-my-name {
+    transform: translate(-162px, -64px) !important;
+  }
+
+  .centered-my-title {
+    transform: translate(-162px, -10px) !important;
+  }
+
+  .centered-my-links {
+    transform: translate(47px, 34px) !important;
+  }
+
+  .centered-my-avatar {
+    width: 120px !important;
+    height: 120px !important;
+    transform: translate(160px, -58px);
   }
 }
