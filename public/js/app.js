@@ -24,7 +24,7 @@
     $('#my-title').removeClass('centered-my-title');
     $('#my-links').removeClass('centered-my-links');
     $('#my-avatar').removeClass('centered-my-avatar');
-    $('#navigator').removeClass('centered-navigator');
+    $('#navigator').removeClass('centered-navigator').removeClass('fa-big');
 
     $('.link-icon').removeClass('fa-big');
 
@@ -40,7 +40,7 @@
 
     $('.link-icon').addClass('fa-big');
 
-    $('#navigator').addClass('centered-navigator');
+    $('#navigator').addClass('fa-big').addClass('centered-navigator');
     $('#my-name').addClass('centered-my-name');
     $('#my-title').addClass('centered-my-title');
     $('#my-links').addClass('centered-my-links');
