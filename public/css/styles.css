@@ -181,10 +181,60 @@ body {
   transform: translateY(100%);
 }
 
-@media (max-width: 460px) {
-  body {
-    font-size: 3vw;
+@media (max-width: 750px) {
+  #my-name-container {
+    top: 1px;
+    left: 5px;
   }
+
+  #my-name {
+    font-size: 140%;
+  }
+
+  #my-title-container {
+    top: 32px;
+    left: 5px;
+  }
+
+  #my-title {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 510px) {
+  #my-links-container {
+    top: 34px;
+    right: 26px;
+  }
+
+  #my-links > a {
+    margin: 0px 1px 0px 1px;
+  }
+
+  #my-avatar-container {
+    top: 10px;
+    right: 5px;
+  }
+
+  #navigator-container {
+    top: 34px;
+    right: 5px;
+  }
+
+  #my-avatar {
+    width: 22px;
+    height: 22px;
+  }
+
+  .fa {
+    font-size: 120% !important;
+  }
+}
+
+@media (max-width: 460px) {
+/*  body {
+    font-size: 3vw;
+  }*/
 
   .centered-my-name {
     transform: translate(-46vw, -70px) !important;
